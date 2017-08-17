@@ -38,11 +38,11 @@ function destructivelyRemoveElementFromEndOfArray(array){
 
 }
 //
-// function removeElementFromEndOfArray(array){
-//   array.slice(0, array.length-1);
-//   return array;
-// }
-// destructivelyAddElementToEndOfArray(chocolateBars, "reeses");
+function removeElementFromEndOfArray(array){
+  array.slice(0, array.length-1);
+  return array;
+}
+destructivelyAddElementToEndOfArray(chocolateBars, "reeses");
 
 addElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToBeginningOfArray(chocolateBars,"reeses");
@@ -50,3 +50,4 @@ destructivelyAddElementToEndOfArray(chocolateBars,"reeses");
 accessElementInArray(chocolateBars,"1");
 removeElementFromBeginningOfArray(chocolateBars);
 destructivelyRemoveElementFromEndOfArray(chocolateBars);
+removeElementFromEndOfArray(chocolateBars);
