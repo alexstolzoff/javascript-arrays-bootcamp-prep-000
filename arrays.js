@@ -26,11 +26,11 @@ function destructivelyAddElementToEndOfArray(array, el){
 function accessElementInArray(array, index){
     return array[index];
 }
-//
-// function removeElementFromBeginningOfArray(array){
-//   var arraySliced = array.slice(1);
-//   return arraySliced;
-// }
+
+function removeElementFromBeginningOfArray(array){
+  var arraySliced = array.slice(1);
+  return arraySliced;
+}
 //
 // function destructivelyRemoveElementFromEndOfArray(array;){
 //     array.pop();
@@ -48,3 +48,4 @@ addElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToEndOfArray(chocolateBars,"reeses");
 accessElementInArray(chocolateBars,"1");
+removeElementFromBeginningOfArray(chocolateBars);
