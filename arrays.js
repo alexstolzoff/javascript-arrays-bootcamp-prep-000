@@ -22,10 +22,10 @@ function destructivelyAddElementToEndOfArray(array, el){
   array.push(el);
   return array;
 }
-//
-// function accessElementInArray(array[], index){
-//     return array[index];
-// }
+
+function accessElementInArray(array, index){
+    return array[index];
+}
 //
 // function removeElementFromBeginningOfArray(array){
 //   var arraySliced = array.slice(1);
