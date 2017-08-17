@@ -31,12 +31,12 @@ function removeElementFromBeginningOfArray(array){
   var arraySliced = array.slice(1);
   return arraySliced;
 }
-//
-// function destructivelyRemoveElementFromEndOfArray(array;){
-//     array.pop();
-//     return array;
-//
-// }
+
+function destructivelyRemoveElementFromEndOfArray(array){
+    array.pop();
+    return array;
+
+}
 //
 // function removeElementFromEndOfArray(array){
 //   array.slice(0, array.length-1);
@@ -49,3 +49,4 @@ destructivelyAddElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToEndOfArray(chocolateBars,"reeses");
 accessElementInArray(chocolateBars,"1");
 removeElementFromBeginningOfArray(chocolateBars);
+destructivelyRemoveElementFromEndOfArray(chocolateBars);
