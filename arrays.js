@@ -47,3 +47,4 @@ function accessElementInArray(array, index){
 addElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToEndOfArray(chocolateBars,"reeses");
+accessElementInArray(chocolateBars,1);
