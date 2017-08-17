@@ -40,8 +40,8 @@ function destructivelyRemoveElementFromEndOfArray(array){
 //
 function removeElementFromEndOfArray(array){
   var newArray = array;
-  array.slice(0, newArray.length - 1);
-  return array;
+  newArray.slice(0, newArray.length - 1);
+  return newArray;
 }
 destructivelyAddElementToEndOfArray(chocolateBars, "reeses");
 
