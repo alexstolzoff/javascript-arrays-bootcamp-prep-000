@@ -6,11 +6,11 @@ function addElementToBeginningOfArray(array, el){
     const newArray = [el, ...array];
     return newArray;
 }
-//
-// function destructivelyAddElementToBeginningOfArray(array[], el){
-//   array[].unshift(el);
-//   return array[];
-// }
+
+function destructivelyAddElementToBeginningOfArray(array, el){
+  array.unshift(el);
+  return array;
+}
 //
 // function addElementToEndOfArray(array[], el){
 //   const array = array[];
