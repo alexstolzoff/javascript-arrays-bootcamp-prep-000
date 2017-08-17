@@ -45,3 +45,4 @@ function destructivelyAddElementToBeginningOfArray(array, el){
 // destructivelyAddElementToEndOfArray(chocolateBars, "reeses");
 
 addElementToBeginningOfArray(chocolateBars,"reeses");
+destructivelyAddElementToBeginningOfArray(chocolateBars,"reeses");
