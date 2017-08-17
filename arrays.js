@@ -11,12 +11,12 @@ function destructivelyAddElementToBeginningOfArray(array, el){
   array.unshift(el);
   return array;
 }
-//
-// function addElementToEndOfArray(array[], el){
-//   const array = array[];
-//     const newArray = [...array, el];
-//     return newArray;
-// }
+
+function addElementToEndOfArray(array, el){
+
+    const newArray = [...array, el];
+    return newArray;
+}
 //
 // function destructivelyAddElementToEndOfArray(array, el){
 //   array.push(el);
