@@ -43,4 +43,4 @@ function addElementToBeginningOfArray(array, el){
 // }
 // destructivelyAddElementToEndOfArray(chocolateBars, "reeses");
 
-// addElementToBeginningOfArray(chocolateBars[],"reeses");
+addElementToBeginningOfArray(chocolateBars,"reeses");
