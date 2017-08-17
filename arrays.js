@@ -46,3 +46,4 @@ function destructivelyAddElementToEndOfArray(array, el){
 
 addElementToBeginningOfArray(chocolateBars,"reeses");
 destructivelyAddElementToBeginningOfArray(chocolateBars,"reeses");
+destructivelyAddElementToEndOfArray(chocolateBars,"reeses");
