@@ -39,9 +39,9 @@ function destructivelyRemoveElementFromEndOfArray(array){
 }
 //
 function removeElementFromEndOfArray(array){
-  var newArray = array;
-  newArray.slice(newArray.length);
-  return newArray;
+  
+  array.slice(array.length);
+  return array;
 }
 destructivelyAddElementToEndOfArray(chocolateBars, "reeses");
 
