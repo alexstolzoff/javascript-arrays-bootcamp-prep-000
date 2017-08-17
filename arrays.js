@@ -51,4 +51,4 @@ destructivelyAddElementToEndOfArray(chocolateBars,"reeses");
 accessElementInArray(chocolateBars,"1");
 removeElementFromBeginningOfArray(chocolateBars);
 destructivelyRemoveElementFromEndOfArray(chocolateBars);
-removeElementFromEndOfArray(chocolateBars);
+removeElementFromEndOfArray(array);
